@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Dell\\Desktop\\VS STUDIO\\IceTask3_CampusManagment\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9E114D3B-DDE5-434D-9E1A-30BF95C5464F}|IceTask3_CampusManagment.csproj|c:\\users\\dell\\desktop\\vs studio\\icetask3_campusmanagment\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E114D3B-DDE5-434D-9E1A-30BF95C5464F}|IceTask3_CampusManagment.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E114D3B-DDE5-434D-9E1A-30BF95C5464F}|IceTask3_CampusManagment.csproj|c:\\users\\dell\\desktop\\vs studio\\icetask3_campusmanagment\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E114D3B-DDE5-434D-9E1A-30BF95C5464F}|IceTask3_CampusManagment.csproj|solutionrelative:person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E114D3B-DDE5-434D-9E1A-30BF95C5464F}|IceTask3_CampusManagment.csproj|c:\\users\\dell\\desktop\\vs studio\\icetask3_campusmanagment\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E114D3B-DDE5-434D-9E1A-30BF95C5464F}|IceTask3_CampusManagment.csproj|solutionrelative:student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E114D3B-DDE5-434D-9E1A-30BF95C5464F}|IceTask3_CampusManagment.csproj|c:\\users\\dell\\desktop\\vs studio\\icetask3_campusmanagment\\registration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E114D3B-DDE5-434D-9E1A-30BF95C5464F}|IceTask3_CampusManagment.csproj|solutionrelative:registration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E114D3B-DDE5-434D-9E1A-30BF95C5464F}|IceTask3_CampusManagment.csproj|c:\\users\\dell\\desktop\\vs studio\\icetask3_campusmanagment\\lecturer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E114D3B-DDE5-434D-9E1A-30BF95C5464F}|IceTask3_CampusManagment.csproj|solutionrelative:lecturer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Person.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\VS STUDIO\\IceTask3_CampusManagment\\Person.cs",
+              "RelativeDocumentMoniker": "Person.cs",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\VS STUDIO\\IceTask3_CampusManagment\\Person.cs",
+              "RelativeToolTip": "Person.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-01T07:49:09.69Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Lecturer.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\VS STUDIO\\IceTask3_CampusManagment\\Lecturer.cs",
+              "RelativeDocumentMoniker": "Lecturer.cs",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\VS STUDIO\\IceTask3_CampusManagment\\Lecturer.cs",
+              "RelativeToolTip": "Lecturer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-01T07:46:52.261Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Registration.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\VS STUDIO\\IceTask3_CampusManagment\\Registration.cs",
+              "RelativeDocumentMoniker": "Registration.cs",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\VS STUDIO\\IceTask3_CampusManagment\\Registration.cs*",
+              "RelativeToolTip": "Registration.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-01T07:46:19.917Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Student.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\VS STUDIO\\IceTask3_CampusManagment\\Student.cs",
+              "RelativeDocumentMoniker": "Student.cs",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\VS STUDIO\\IceTask3_CampusManagment\\Student.cs*",
+              "RelativeToolTip": "Student.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-01T07:46:07.974Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\VS STUDIO\\IceTask3_CampusManagment\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\VS STUDIO\\IceTask3_CampusManagment\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-01T07:42:02.589Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
