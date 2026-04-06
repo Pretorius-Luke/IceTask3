@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("IceTask3_CampusManagment")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3f14f0445ea00b0bf6bb7e422442fecfadb73af4")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1a2ed4a0f175f463d0ae6c7a233d1f719ef1c9d2")]
 [assembly: System.Reflection.AssemblyProductAttribute("IceTask3_CampusManagment")]
 [assembly: System.Reflection.AssemblyTitleAttribute("IceTask3_CampusManagment")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

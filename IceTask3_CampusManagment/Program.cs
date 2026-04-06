@@ -7,6 +7,8 @@ using System.Data;
 //Person per1 = new Person("steve","steve@gmail.com","St104999999");
 //per1.DisplayInfo();
 
+using IceTask3_CampusManagment;
+
 Registration registration = new Registration();
 
 bool running = true;
@@ -15,7 +17,9 @@ while (running)
     Console.WriteLine("\n=== Campus Management System ===");
     Console.WriteLine("1. Register Student");
     Console.WriteLine("2. View All Students");
-    Console.WriteLine("3. Exit");
+    Console.WriteLine("3. Capture Marks");
+    Console.WriteLine("4. View Marks");
+    Console.WriteLine("5. Exit");
     Console.Write("Choose an option: ");
 
     string choice = Console.ReadLine();
@@ -29,6 +33,12 @@ while (running)
             registration.ViewAllStudents();
             break;
         case "3":
+            registration.CaptureMarks();
+            break;
+        case "4":
+            registration.ViewMarks();
+            break;
+        case "5":
             running = false;
             Console.WriteLine("Goodbye!");
             break;

@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ThinkPad L15\\OneDrive\\Desktop\\prog6112\\IceTask3\\IceTask3\\IceTask3_CampusManagment\\IceTask3_CampusManagment.csproj": {}
+    "C:\\Users\\gould\\Desktop\\PROG_ICE3\\IceTask3\\IceTask3_CampusManagment\\IceTask3_CampusManagment.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ThinkPad L15\\OneDrive\\Desktop\\prog6112\\IceTask3\\IceTask3\\IceTask3_CampusManagment\\IceTask3_CampusManagment.csproj": {
+    "C:\\Users\\gould\\Desktop\\PROG_ICE3\\IceTask3\\IceTask3_CampusManagment\\IceTask3_CampusManagment.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ThinkPad L15\\OneDrive\\Desktop\\prog6112\\IceTask3\\IceTask3\\IceTask3_CampusManagment\\IceTask3_CampusManagment.csproj",
+        "projectUniqueName": "C:\\Users\\gould\\Desktop\\PROG_ICE3\\IceTask3\\IceTask3_CampusManagment\\IceTask3_CampusManagment.csproj",
         "projectName": "IceTask3_CampusManagment",
-        "projectPath": "C:\\Users\\ThinkPad L15\\OneDrive\\Desktop\\prog6112\\IceTask3\\IceTask3\\IceTask3_CampusManagment\\IceTask3_CampusManagment.csproj",
-        "packagesPath": "C:\\Users\\ThinkPad L15\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ThinkPad L15\\OneDrive\\Desktop\\prog6112\\IceTask3\\IceTask3\\IceTask3_CampusManagment\\obj\\",
+        "projectPath": "C:\\Users\\gould\\Desktop\\PROG_ICE3\\IceTask3\\IceTask3_CampusManagment\\IceTask3_CampusManagment.csproj",
+        "packagesPath": "C:\\Users\\gould\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\gould\\Desktop\\PROG_ICE3\\IceTask3\\IceTask3_CampusManagment\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\ThinkPad L15\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\gould\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
