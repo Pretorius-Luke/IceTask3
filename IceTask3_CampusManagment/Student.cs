@@ -4,14 +4,23 @@ using System.Text;
 
 namespace IceTask3_CampusManagment
 {
-    internal class Student
+    internal class Student : Person
     {
-        string[] studentNames = new string[100];
-        string[] studentNumbers = new string[100];
+        public string StudentNumber { get; set; }
+        public string Course { get; set; }
+        public double[] Marks { get; set; }
 
-        public void addStudent(String studentName,String studentNumber)
+        public Student(string name, string email, string id, string studentNumber, string course)
+            : base(name, email, id)
         {
+            StudentNumber = studentNumber;
+            Course = course;
+            Marks = new double[0];
+        }
 
+        public override void DisplayInfo()
+        {
+            Console.WriteLine($"Name: {Name} | Email: {Email} | ID: {ID} | Student Number: {StudentNumber} | Course: {Course}");
         }
     }
 }
