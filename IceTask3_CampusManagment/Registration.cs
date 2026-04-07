@@ -5,8 +5,11 @@ namespace IceTask3_CampusManagment
 {
     internal class Registration
     {
-        private List<Student> _students = new List<Student>();
-        private List<Marks> _marksList = new List<Marks>();
+        public List<Student> _students = new List<Student>();
+        public List<Marks> _marksList = new List<Marks>();
+
+        public List<Student> Students => _students;
+        public List<Marks> MarksList => _marksList;
 
         public void RegisterStudent()
         {
@@ -33,12 +36,8 @@ namespace IceTask3_CampusManagment
                 if (string.IsNullOrWhiteSpace(studentNumber))
                     throw new ArgumentException("Student number cannot be empty.");
 
-                Console.Write("Enter Course: ");
-                string course = Console.ReadLine();
-                if (string.IsNullOrWhiteSpace(course))
-                    throw new ArgumentException("Course cannot be empty.");
 
-                Student student = new Student(name, email, id, studentNumber, course);
+                Student student = new Student(name, email, id, studentNumber, Course.CourseName);
                 _students.Add(student);
 
                 Console.WriteLine("\nStudent registered successfully!");

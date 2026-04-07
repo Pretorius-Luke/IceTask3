@@ -1,15 +1,9 @@
-﻿
-//members in group ST10447071, ST10446993, ST10448212, ST10445792, ST10495237
-
-using IceTask3_CampusManagment;
-using System.Data;
-
-//Person per1 = new Person("steve","steve@gmail.com","St104999999");
-//per1.DisplayInfo();
+﻿//members in group ST10447071, ST10446993, ST10448212, ST10445792, ST10495237
 
 using IceTask3_CampusManagment;
 
 Registration registration = new Registration();
+Course course = new Course(registration.Students);
 
 bool running = true;
 while (running)
@@ -19,7 +13,9 @@ while (running)
     Console.WriteLine("2. View All Students");
     Console.WriteLine("3. Capture Marks");
     Console.WriteLine("4. View Marks");
-    Console.WriteLine("5. Exit");
+    Console.WriteLine("5. Generate Report");
+    Console.WriteLine("6. Add Student To Course");
+    Console.WriteLine("7. Exit");
     Console.Write("Choose an option: ");
 
     string choice = Console.ReadLine();
@@ -39,11 +35,19 @@ while (running)
             registration.ViewMarks();
             break;
         case "5":
+            Report report = new Report(registration.Students, registration.MarksList);
+            report.getReport();
+            break;
+        case "6":
+            course.AddToCourse();
+            break;
+        case "7":
             running = false;
             Console.WriteLine("Goodbye!");
             break;
         default:
             Console.WriteLine("Invalid option. Please try again.");
+            Console.Clear();
             break;
     }
 }
