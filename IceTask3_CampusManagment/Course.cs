@@ -8,6 +8,15 @@ namespace IceTask3_CampusManagment
         public static string CourseName { get; set; }
         private List<Student> _students;
 
+        private List<string> _availableCourses = new List<string>
+        {
+            "Computer Science",
+            "Information Technology",
+            "Software Engineering",
+            "Cybersecurity",
+            "Data Science"
+        };
+
         public Course(List<Student> students)
         {
             _students = students;
@@ -43,13 +52,21 @@ namespace IceTask3_CampusManagment
                 return;
             }
 
-            Console.Write("Enter Course Name: ");
-            CourseName = Console.ReadLine();
+            Console.WriteLine("\nAvailable Courses:");
+            for (int i = 0; i < _availableCourses.Count; i++)
+            {
+                Console.WriteLine($"{i + 1}. {_availableCourses[i]}");
+            }
 
-            if (string.IsNullOrWhiteSpace(CourseName))
-                throw new ArgumentException("Course name cannot be empty.");
+            Console.Write("Select a course (enter number): ");
+            string courseInput = Console.ReadLine();
 
+            if (!int.TryParse(courseInput, out int courseChoice) || courseChoice < 1 || courseChoice > _availableCourses.Count)
+                throw new ArgumentException("Invalid course selection.");
+
+            CourseName = _availableCourses[courseChoice - 1];
             found.Course = CourseName;
+
             Console.WriteLine($"\n{found.Name} has been added to {CourseName}.");
         }
     }

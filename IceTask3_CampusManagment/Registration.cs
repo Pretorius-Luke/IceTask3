@@ -36,8 +36,18 @@ namespace IceTask3_CampusManagment
                 if (string.IsNullOrWhiteSpace(studentNumber))
                     throw new ArgumentException("Student number cannot be empty.");
 
+                // Check for duplicates
+                foreach (Student existing in _students)
+                {
+                    if (existing.ID == id)
+                        throw new ArgumentException($"A student with ID '{id}' is already registered.");
+                    if (existing.StudentNumber == studentNumber)
+                        throw new ArgumentException($"A student with student number '{studentNumber}' is already registered.");
+                    if (existing.Email == email)
+                        throw new ArgumentException($"A student with email '{email}' is already registered.");
+                }
 
-                Student student = new Student(name, email, id, studentNumber, Course.CourseName);
+                Student student = new Student(name, email, id, studentNumber, "Not assigned");
                 _students.Add(student);
 
                 Console.WriteLine("\nStudent registered successfully!");
@@ -83,6 +93,18 @@ namespace IceTask3_CampusManagment
                 string studentNumber = Console.ReadLine();
                 if (string.IsNullOrWhiteSpace(studentNumber))
                     throw new ArgumentException("Student number cannot be empty.");
+
+                bool studentExists = false;
+                foreach (Student s in _students)
+                {
+                    if (s.StudentNumber == studentNumber)
+                    {
+                        studentExists = true;
+                        break;
+                    }
+                }
+                if (!studentExists)
+                    throw new ArgumentException($"No student found with student number '{studentNumber}'.");
 
                 Console.Write("Enter Subject Name: ");
                 string subject = Console.ReadLine();

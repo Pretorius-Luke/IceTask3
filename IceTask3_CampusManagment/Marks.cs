@@ -42,7 +42,6 @@ namespace IceTask3_CampusManagment
             }
         }
 
-        // Constructor
         public Marks(string studentNumber, string subjectName, double score)
         {
             StudentNumber = studentNumber;
@@ -50,7 +49,6 @@ namespace IceTask3_CampusManagment
             Score = score;
         }
 
-        // Returns letter grade based on score
         public string CalculateGrade()
         {
             if (_score >= 75) return "A";
@@ -60,13 +58,11 @@ namespace IceTask3_CampusManagment
             return "F";
         }
 
-        // Returns true if student passed
         public bool IsPassed()
         {
             return _score >= 50;
         }
 
-        // Static method to calculate average from a list of marks
         public static double GetAverage(List<Marks> marksList)
         {
             if (marksList == null || marksList.Count == 0)
@@ -80,7 +76,6 @@ namespace IceTask3_CampusManagment
             return total / marksList.Count;
         }
 
-        // Display mark info
         public void DisplayInfo()
         {
             Console.WriteLine($"Student Number: {_studentNumber} | Subject: {_subjectName} | Score: {_score}% | Grade: {CalculateGrade()} | Status: {(IsPassed() ? "Passed" : "Failed")}");

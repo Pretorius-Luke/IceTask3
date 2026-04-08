@@ -8,14 +8,14 @@ namespace IceTask3_CampusManagment
     {
         public string StudentNumber { get; set; }
         public string Course { get; set; }
-        public List<Marks> Marks { get; set; }
+        public List<Marks> MarksList { get; set; }
 
         public Student(string name, string email, string id, string studentNumber, string course)
             : base(name, email, id)
         {
             StudentNumber = studentNumber;
             Course = course;
-            Marks = new List<Marks>();
+            MarksList = new List<Marks>();
         }
 
         public override void DisplayInfo()
