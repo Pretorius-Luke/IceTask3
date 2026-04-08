@@ -15,7 +15,9 @@ while (running)
     Console.WriteLine("4. View Marks");
     Console.WriteLine("5. Generate Report");
     Console.WriteLine("6. Add Student To Course");
-    Console.WriteLine("7. Exit");
+    Console.WriteLine("7. Register Lecturer");
+    Console.WriteLine("8. View All Lecturers");
+    Console.WriteLine("9. Exit");
     Console.Write("Choose an option: ");
 
     string choice = Console.ReadLine();
@@ -42,6 +44,12 @@ while (running)
             course.AddToCourse();
             break;
         case "7":
+            Lecturer.RegisterLecturer();
+            break;
+        case "8":
+            Lecturer.ViewAllLecturers();
+            break;
+        case "9":
             running = false;
             Console.WriteLine("Goodbye!");
             break;
